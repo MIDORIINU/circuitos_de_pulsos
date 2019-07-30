@@ -1,0 +1,162 @@
+(ExpressProject "IR REMOTE"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\ir remote.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (FLDSTUFF_Scope "0")
+    (FLDSTUFF_Action "0")
+    (FLDSTUFF_Report_File
+       "D:\Facultad\Materias\Laboratorio de Microcomputadoras\INFORME\SCH\ir remote.RPT")
+    (FLDSTUFF_Update_File
+       "D:\Facultad\Materias\Laboratorio de Microcomputadoras\INFORME\SCH\ir remote.UPD")
+    (FLDSTUFF__Uppercase_Result_Property "FALSE")
+    (FLDSTUFF_Uppercase_Update_Property "FALSE")
+    (FLDSTUFF_Uppercase_Unconditionally "FALSE")
+    (FLDSTUFF_Visibility "0")
+    (FLDSTUFF_inst_or_occurrence "0")
+    (FLDSTUFF_Create_Report_File "FALSE"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (POT
+      (FullPartName "POT.Normal")
+      (LibraryName
+         "C:\APPS\PROGS\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName
+         "C:\APPS\PROGS\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName
+         "C:\APPS\PROGS\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (74HC14
+      (FullPartName "74HC14.Normal")
+      (LibraryName
+         "C:\APPS\PROGS\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "3"))
+    (BC337
+      (FullPartName "BC337.Normal")
+      (LibraryName
+         "C:\APPS\PROGS\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (CON3
+      (FullPartName "CON3.Normal")
+      (LibraryName
+         "C:\APPS\PROGS\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (74HC04
+      (FullPartName "74HC04.Normal")
+      (LibraryName
+         "C:\APPS\PROGS\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\GATE.OLB")
+      (DeviceIndex "3"))
+    (NE555
+      (FullPartName "NE555.Normal")
+      (LibraryName
+         "C:\APPS\PROGS\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\MISCLINEAR.OLB")
+      (DeviceIndex "0"))
+    (CIRDIN_3-P
+      (FullPartName "CIRDIN_3-P.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONNECTOR DB9"
+      (FullPartName "CONNECTOR DB9.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (8255
+      (FullPartName "8255.Normal")
+      (LibraryName "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\MISC.OLB")
+      (DeviceIndex "0"))
+    (DB9-MALE
+      (FullPartName "DB9-MALE.Normal")
+      (LibraryName
+         "D:\FACULTAD\MATERIAS\LABORATORIO DE MICROCOMPUTADORAS\INFORME\SCH\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("CONNECTOR CENT14-S"
+      (FullPartName "CONNECTOR CENT14-S.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CMX100-NO-SPST
+      (FullPartName "CMX100-NO-SPST.Normal")
+      (LibraryName "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (ULN2803
+      (FullPartName "ULN2803.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    ("SW DIP-5"
+      (FullPartName "SW DIP-5.Normal")
+      (LibraryName "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("IR MODULE"
+      (FullPartName "IR MODULE.Normal")
+      (LibraryName
+         "D:\FACULTAD\MATERIAS\LABORATORIO DE MICROCOMPUTADORAS\INFORME\SCH\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("CIRCUIT BREAKER"
+      (FullPartName "CIRCUIT BREAKER.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\ELECTROMECHANICAL.OLB")
+      (DeviceIndex "0"))
+    (BC327
+      (FullPartName "BC327.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    (AT89C52
+      (FullPartName "AT89C52")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\MICROCONTROLLER.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\ir remote.dsn")
+      (Path "Design Resources" ".\ir remote.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\ir remote.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources" ".\ir remote.dsn" "SCHEMATIC1" "PAGE2"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 320 609 -8 -31 0 200 0 403"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1689 52 521")
+        (Scroll "0 255")
+        (Zoom "136")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\BAKANEKO\FACULTAD\MATERIAS\CIRCUITOS DE PULSOS\TP\SCH\IR REMOTE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1449 104 573")
+        (Scroll "-163 39")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\BAKANEKO\FACULTAD\MATERIAS\CIRCUITOS DE PULSOS\TP\SCH\IR REMOTE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\APPS\Progs\Cadence\SPB_16.5\tools\Capture\library"))

@@ -1,0 +1,59 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\irremo~1.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (MAX232
+      (FullPartName "MAX232.Normal")
+      (LibraryName
+         "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\LINEDRIVERRECEIVER.OLB")
+      (DeviceIndex "0"))
+    ("CAPACITOR POL"
+      (FullPartName "CAPACITOR POL.Normal")
+      (LibraryName "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("CAPACITOR NON-POL"
+      (FullPartName "CAPACITOR NON-POL.Normal")
+      (LibraryName "C:\ARCHIVOS DE PROGRAMA\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "c:\ARCHIV~1\OrCAD\CAPTURE\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\irremo~1.dsn")
+      (Path "Design Resources" ".\irremo~1.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\irremo~1.dsn" "SCHEMATIC1" "PAGE2"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -30 646 846 77 480"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 1 0 609 -4 -30 44 914 58 495")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\FACULTAD\MATERIAS\LABORA~1\INFORME\SCH\IRREMO~1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 0 870 0 437")
+        (Scroll "0 102")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\FACULTAD\MATERIAS\LABORA~1\INFORME\SCH\IRREMO~1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2"))))
