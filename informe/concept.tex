@@ -1,5 +1,5 @@
 
-Los controles remotos infrarrojos comerciales en general, se basan todos en el mismo funcionamiento básico, un haz infrarrojo que se genera a partir de \textbf{LEDS} infrarrojos (\textbf{IREDS}), la frecuencia de la portadora es de alrededor de $40 \si[per-mode=symbol]{\kilo\hertz}$, ya que esta frecuencia es la mas inmune a las fuentes infrarrojas que comúnmente se encuentran en el ambiente, principalmente la luz solar, tubos de luz fluorescente, etc, esta portadora modula un código binario codificado de uno de tres esquemas de codificación, el primero, \textbf{pulse distance modulation} ((modulación por distancia de pulsos), como se ve en la figura~\figref{fig:pulse_distance_modulation}, la información es contenida en la distancia entre los pulsos, siendo por ejemplo la distancia corta correspondiente a un $0$ y la larga a $1$, o viceversa.
+Los controles remotos infrarrojos comerciales en general, se basan todos en el mismo principio de funcionamiento básico, un haz infrarrojo que se genera a partir de \textbf{LEDS} infrarrojos (\textbf{IREDS}), la frecuencia de la portadora es de alrededor de $40 \si[per-mode=symbol]{\kilo\hertz}$, ya que esta frecuencia es la mas inmune a las fuentes infrarrojas que comúnmente se encuentran en el ambiente, principalmente la luz solar, tubos de luz fluorescente, etc, esta portadora modula un código binario codificado en uno de tres esquemas de codificación, el primero, \textbf{pulse distance modulation} (modulación por distancia de pulsos), como se ve en la figura~\figref{fig:pulse_distance_modulation}, la información es contenida en la distancia entre los pulsos, siendo por ejemplo la distancia corta correspondiente a un $0$ y la larga a $1$, o viceversa.
 
  
 
@@ -43,7 +43,7 @@ Estos $3$ esquemas de modulación son usados por prácticamente todas las marcas
 	\label{fig:RC5_coding}
 \end{figure}
 
-Todos estos protocolos utilizados a veces incluyen algunas variantes como ser, \textbf{headers} o \textbf{tails}, que se incluyen respectivamente, encabezando o terminando el código propiamente dicho que se repite mientras la tecla del control remoto se mantiene presionada, o la inclusión de un bit que cambia de una transmisión a la siguiente (usado para detectar una transmisión interrumpida de una diferente), pero en cualquier caso el código se encuentra modulado con la misma portadora, y algo importante, se mantiene la distancia temporal entre los bloques de código, como se puede ver por ejemplo para el caso del código \textbf{RC5} en la figura~\figref{fig:code_repetition_RC5}. En general la drecuencia de repetición del código es baja, en el orden de la decena de $\si[per-mode=symbol]{\hertz}$.
+Todos estos protocolos utilizados a veces incluyen algunas variantes como ser, \textbf{headers} o \textbf{tails}, que se incluyen respectivamente, encabezando o terminando el código propiamente dicho que se repite mientras la tecla del control remoto se mantiene presionada, o la inclusión de un bit que cambia de una transmisión a la siguiente (usado para diferenciar una transmisión interrumpida de una diferente), pero en cualquier caso el código se encuentra modulado con la misma portadora, y algo importante, se mantiene la distancia temporal entre los bloques de código, como se puede ver por ejemplo para el caso del código \textbf{RC5} en la figura~\figref{fig:code_repetition_RC5}. En general la frecuencia de repetición del código es baja, en el orden de la decena de $\si[per-mode=symbol]{\hertz}$.
 
 
 \begin{figure}[H]
@@ -79,7 +79,7 @@ El la figura~\figref{fig:IR_Module_sch} se muestra un esquema en bloques de uno 
 \end{figure}
 
 
-En general aunque cada protocolo tiene una frecuencia de portadora específica, la cercanía de las mismas hace que no sea necesario usar un módulo que coincida en forma exacta con la portadora a recibir, solo se tendrá una mayor atenuación al alejarse un poco de la frecuencia central, pero dad la gran sensibilidad de estos módulos, es común tener distancias de recepción en el orden de los $15 \si[per-mode=symbol]{\meter}$, es poco lo que afecta, y de ser necesario para un receptor mas universal podrían utilizarse un conjunto de estos módulos.
+En general aunque cada protocolo tiene una frecuencia de portadora específica, la cercanía de las mismas hace que no sea necesario usar un módulo que coincida en forma exacta con la portadora a recibir, solo se tendrá una mayor atenuación al alejarse un poco de la frecuencia central, pero dada la gran sensibilidad de estos módulos, es común tener distancias de recepción en el orden de los $15 \si[per-mode=symbol]{\meter}$, es poco lo que afecta, y de ser necesario para un receptor mas universal podrían utilizarse un conjunto de estos módulos.
 
 
 
